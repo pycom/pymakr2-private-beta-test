@@ -3,16 +3,7 @@
   "main": "./lib/main.js",
   "version": "0.1.0",
   "description": "Pymakr 2.0 beta.",
-  "keywords": [
-    "Pycom",
-    "Pymakr",
-    "MicroPython",
-    "WiPy",
-    "Wipy2",
-    "LoPy",
-    "SiPy",
-    "FiPy"
-  ],
+  "keywords": [],
   "repository": "https://github.com/pycom/pymakr2-private-beta-test",
   "license": "GPL-3.0",
   "engines": {
