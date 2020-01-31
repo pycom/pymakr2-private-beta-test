@@ -1,7 +1,7 @@
 {
   "name": "betapymkr2",
   "main": "./lib/main.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pymakr 2.0 beta.",
   "keywords": [],
   "repository": "https://github.com/pycom/pymakr2-private-beta-test",
