@@ -1,19 +1,11 @@
 {
   "name": "rkamyp",
   "main": "./lib/main.js",
-  "version": "1.5.6",
-  "description": "Adds a REPL console to Atom that connects to your Pycom board. It can run code on the board or synchronize your project files to it.",
+  "version": "0.0.1",
+  "description": "rkamyp beta",
   "keywords": [
-    "Pycom",
-    "rkamyp",
-    "MicroPython",
-    "WiPy",
-    "Wipy2",
-    "LoPy",
-    "SiPy",
-    "FiPy"
   ],
-  "repository": "https://github.com/pycom/rkamyp-atom",
+  "repository": "https://github.com/pycom/pymakr2-private-beta-test",
   "license": "GPL-3.0",
   "engines": {
     "atom": ">=1.41.0 <=1.44.0",
