@@ -1,0 +1,12 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-s": "rkamyp:upload",
+    "ctrl-shift-s": "rkamyp:uploadFile",
+    "ctrl-alt-t": "rkamyp:toggleREPL",
+    "ctrl-alt-c": "rkamyp:connect",
+    "ctrl-alt-d": "rkamyp:disconnect",
+    "ctrl-alt-r": "rkamyp:run",
+    "ctrl-shift-enter": "rkamyp:runselection",
+    "ctrl-r": "rkamyp:clearTerminal"
+  }
+}
