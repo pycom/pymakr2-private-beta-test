@@ -48,7 +48,7 @@ const getBinaries = async () => {
   console.log('\n');
   console.log(`Downloading binaries for ${electronVersions.join(', ')}`);
   ps.addCommand(
-    '/Users/pk/dev/pycom/rkamyp-atom/scripts/mp-download-atom.ps1',
+    '/Users/pk/dev/pycom/pymakr-atom/scripts/mp-download-atom.ps1',
     [{ ElectronVersions: electronVersions }],
   );
 
