@@ -1,6 +1,6 @@
-#  rkamyp Atom Package
+#  rkamyp2 Atom Package
 
-rkamyp enables you to communicate to your Pycom board using the build in command line REPL. Run a single file to your board, upload your entire project or directly type and execute commands.
+rkamyp2 enables you to communicate to your Pycom board using the build in command line REPL. Run a single file to your board, upload your entire project or directly type and execute commands.
 
 - Works with macOS, Linux, and Windows.
 - Connects to any Pycom board: WiPy, WiPy 2.0, LoPy, and any newer board.
@@ -27,7 +27,7 @@ Useful keymaps:
 
 ## Settings
 
-To connect to your board, use the `settings` button on the right top of the terminal to go to the plugin settings. You can also use cmd-, (ctrl-, on Windows and Linux) and navigate to the rkamyp package settings.
+To connect to your board, use the `settings` button on the right top of the terminal to go to the plugin settings. You can also use cmd-, (ctrl-, on Windows and Linux) and navigate to the rkamyp2 package settings.
 
 Fill in the correct IP address or comport for your device. If you changed your username and password to something else than `micro` and `python`, please update them accordingly if you connect over IP. Username and password are not required when using serial.
 
@@ -67,8 +67,8 @@ The download feature also uses the `sync file types` and `sync folder` settings 
 To manually install the plugin, follow these steps
 - Delete any existing installation of the plugin
 - Download the code from GitHub
-- Override all files in the `~/.atom/packages/rkamyp` folder
-- If you haven't installed rkamyp before, place the files in any folder and run `apm link`
+- Override all files in the `~/.atom/packages/rkamyp2` folder
+- If you haven't installed rkamyp2 before, place the files in any folder and run `apm link`
 - Run the commands `apm install` (or `npm install` if `apm` is not available) from package folder
 - Restart Atom
 
@@ -82,13 +82,13 @@ In some cases this is caused by the Atom Package Manager (apm) using Python 3.x,
 
 `echo "python=/usr/bin/python2.7" >> ~/.atom/.apmrc`
 
-Now reinstall rkamyp or run `apm install` from the rkamyp package located in `~/.atom/packages/rkamyp`
+Now reinstall rkamyp2 or run `apm install` from the rkamyp2 package located in `~/.atom/packages/rkamyp2`
 
 ## 'Could not locate the bindings file'
 
 If the installation of the `serialport` library failed, it reverts back to the precompiled version that is included in the plugin. This is compiled for the latest versions of atom and loses compatibility with older versions.
 
-Solution: upgrade to the latest Atom (1.19.0 or higher) or install the previous version of the plugin (`apm install rkamyp@1.0.3`)
+Solution: upgrade to the latest Atom (1.19.0 or higher) or install the previous version of the plugin (`apm install rkamyp2@1.0.3`)
 
 ### Uploading a project results in 'Failed to allocate memory' error
 
@@ -96,15 +96,15 @@ Uploading takes a bit of memory, so this error can occur when code running on th
 
 **Solution:** use safe boot with [REPL](https://docs.pycom.io/gettingstarted/programming/repl) or [Expansion Board](https://docs.pycom.io/product-info/boards/expansion3) when uploading
 
-### Any error where the traceback contains `\.atom\packages\rkamyp\` with a capital P
+### Any error where the traceback contains `\.atom\packages\rkamyp2\` with a capital P
 
-This happened after rkamyp renamed to rkamyp (lowercase) starting at version 1.2.5, but Atom remembers the old folder name inside the packages folder.
+This happened after rkamyp2 renamed to rkamyp2 (lowercase) starting at version 1.2.5, but Atom remembers the old folder name inside the packages folder.
 
 Solution:
-- Uninstall rkamyp
+- Uninstall rkamyp2
 - Remove folder: `~/.atom/.apm/Pymkr`
 - Empty folder: `~/.config/Atom/Cache`
-- Reinstall rkamyp
+- Reinstall rkamyp2
 
 ### Cannot connect to Pycom board via REPL
 
@@ -114,7 +114,7 @@ In the case of a board that has already has code uploaded to it and is running a
 
 1. Ensure your board is connected to your computer
 2. Press the reset button on the device
-3. Press ctrl-c on within the rkamyp console to exit the current script/program
+3. Press ctrl-c on within the rkamyp2 console to exit the current script/program
 
 The REPL should then appear with the `>>>` prompt and you will be able to run/upload your code.
 

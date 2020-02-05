@@ -2,15 +2,15 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "rkamyp",
+        "label": "rkamyp2",
         "submenu": [
           {
             "label": "Toggle Pycom Console",
-            "command": "rkamyp:toggleREPL"
+            "command": "rkamyp2:toggleREPL"
           },
           {
             "label": "Run current file",
-            "command": "rkamyp:run"
+            "command": "rkamyp2:run"
           }
         ]
       }
@@ -21,19 +21,19 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "rkamyp",
+          "label": "rkamyp2",
           "submenu": [
             {
               "label": "Toggle Pycom Console",
-              "command": "rkamyp:toggleREPL"
+              "command": "rkamyp2:toggleREPL"
             },
             {
               "label": "Run current file",
-              "command": "rkamyp:run"
+              "command": "rkamyp2:run"
             },
             {
               "label": "Synchronize project",
-              "command": "rkamyp:sync"
+              "command": "rkamyp2:sync"
             }
           ]
         }

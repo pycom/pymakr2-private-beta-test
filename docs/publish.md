@@ -10,5 +10,5 @@ Procedure
   - then deploys to the atom servers
 More info: https://flight-manual.atom.io/hacking-atom/sections/publishing/
 
-To be able to publish, you need access to the pycom/rkamyp-atom repo on github. Secondly, you need to create a personal access token for the command line. See these instructions:
+To be able to publish, you need access to the pycom/rkamyp2-atom repo on github. Secondly, you need to create a personal access token for the command line. See these instructions:
 https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line

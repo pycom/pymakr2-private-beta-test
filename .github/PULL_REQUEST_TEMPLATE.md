@@ -19,4 +19,4 @@
 
 **Atom version:**
 
-**rkamyp version:**
+**rkamyp2 version:**

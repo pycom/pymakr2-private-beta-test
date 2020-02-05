@@ -2,7 +2,7 @@
   "name": "rkamyp2",
   "main": "./lib/main.js",
   "version": "0.2.3",
-  "description": "rkamyp beta",
+  "description": "rkamyp2 beta",
   "keywords": [],
   "repository": "https://github.com/pycom/pymakr2-private-beta-test",
   "license": "GPL-3.0",

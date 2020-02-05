@@ -1,5 +1,5 @@
-- uninstall rkamyp
-- Clone rkamyp github to local folder
+- uninstall rkamyp2
+- Clone rkamyp2 github to local folder
 - Run 'apm link' and 'apm install' from that folder
 - Reload atom
 

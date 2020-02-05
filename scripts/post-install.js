@@ -60,7 +60,7 @@ function postInstall() {
     );
     console.log('Success.');
   } catch (error) {
-    console.log("Failed to copy bindings file, rkamyp won't work");
+    console.log("Failed to copy bindings file, rkamyp2 won't work");
     console.log(error);
   }
 }

@@ -30,4 +30,4 @@ about: Create a report to help us improve
 
 **Atom version:**
 
-**rkamyp version:**
+**rkamyp2 version:**

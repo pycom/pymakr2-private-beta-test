@@ -1,4 +1,4 @@
-name: Build rkamyp
+name: Build rkamyp2
 
 on:
   pull_request: ~
@@ -62,14 +62,14 @@ jobs:
       #   run: npm run test
 
       # - name: Package Extension
-      #   run: npx vsce package -o rkamyp-${{ github.sha }}.vsix
+      #   run: npx vsce package -o rkamyp2-${{ github.sha }}.vsix
 
       # - name: Upload VSIX
       #   if: github.event_name == 'schedule'
       #   uses: actions/upload-artifact@master
       #   with:
-      #     name: rkamyp-nightly.vsix
-      #     path: ./rkamyp-${{ github.sha }}.vsix
+      #     name: rkamyp2-nightly.vsix
+      #     path: ./rkamyp2-${{ github.sha }}.vsix
 
   # deploy:
   #   name: Publish

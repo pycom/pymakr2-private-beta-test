@@ -62,17 +62,17 @@ CURRENT_ATOM_ELECTRON_VERSION="${OUTPUT//[!0-9.]/}"
 echo ""
 echo "Current Atom version is using Electron@${CURRENT_ATOM_ELECTRON_VERSION}"
 
-rkamyp_FOLDER="${PWD}/rkamyp"
+rkamyp2_FOLDER="${PWD}/rkamyp2"
 
-if [ -d ${rkamyp_FOLDER} ]; then
-  echo "rkamyp repository found. Performing a pull..."
-  cd rkamyp
+if [ -d ${rkamyp2_FOLDER} ]; then
+  echo "rkamyp2 repository found. Performing a pull..."
+  cd rkamyp2
   git checkout master
   git pull
 else
-  echo "rkamyp repository not found"
-  git clone https://github.com/pycom/rkamyp-atom.git rkamyp
-  cd rkamyp
+  echo "rkamyp2 repository not found"
+  git clone https://github.com/pycom/rkamyp2-atom.git rkamyp2
+  cd rkamyp2
 fi
 
 {
@@ -85,14 +85,14 @@ fi
 echo ""
 
 if [ "$CURRENT_ELECTRON_VERSION" == "$ELECTRON_VERSION" ]; then
-  RESULT="rkamyp's Elektron is synchronized with Atom ${LATEST_VERSION_NUMBER}!"
+  RESULT="rkamyp2's Elektron is synchronized with Atom ${LATEST_VERSION_NUMBER}!"
 else
-  RESULT="rkamyp's Elektron is NOT synchronized with Atom ${LATEST_VERSION_NUMBER}!"
+  RESULT="rkamyp2's Elektron is NOT synchronized with Atom ${LATEST_VERSION_NUMBER}!"
 fi
 
 echo ""
 echo "Elektron versions:"
-echo "rkamyp: ${CURRENT_ELECTRON_VERSION}"
+echo "rkamyp2: ${CURRENT_ELECTRON_VERSION}"
 echo "Atom (master): ${CURRENT_ATOM_ELECTRON_VERSION}"
 echo "Atom ($LATEST_VERSION_NUMBER): ${ELECTRON_VERSION}"
 echo ""

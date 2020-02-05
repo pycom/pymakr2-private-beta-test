@@ -1,12 +1,12 @@
 {
   "atom-workspace": {
-    "ctrl-alt-s": "rkamyp:upload",
-    "ctrl-shift-s": "rkamyp:uploadFile",
-    "ctrl-alt-t": "rkamyp:toggleREPL",
-    "ctrl-alt-c": "rkamyp:connect",
-    "ctrl-alt-d": "rkamyp:disconnect",
-    "ctrl-alt-r": "rkamyp:run",
-    "ctrl-shift-enter": "rkamyp:runselection",
-    "ctrl-r": "rkamyp:clearTerminal"
+    "ctrl-alt-s": "rkamyp2:upload",
+    "ctrl-shift-s": "rkamyp2:uploadFile",
+    "ctrl-alt-t": "rkamyp2:toggleREPL",
+    "ctrl-alt-c": "rkamyp2:connect",
+    "ctrl-alt-d": "rkamyp2:disconnect",
+    "ctrl-alt-r": "rkamyp2:run",
+    "ctrl-shift-enter": "rkamyp2:runselection",
+    "ctrl-r": "rkamyp2:clearTerminal"
   }
 }

@@ -1,5 +1,5 @@
 ## 1.5.6 - User experience improvements
-* Now rkamyp shows a post-install notification if it failed to load Serialport library, asking the user to reload Atom. 
+* Now rkamyp2 shows a post-install notification if it failed to load Serialport library, asking the user to reload Atom. 
 
 ## 1.5.5 - Compatibility update
 * Updated supported Atom versions (>=1.41.0)
@@ -44,7 +44,7 @@
 ## 1.4.11 - Bugfixes
 * Solved error when upload button is pressed while loading (issue #112)
 * Better feedback in terminal about autoconnect
-* Added popup window to ask users for feedback about rkamyp 2.0
+* Added popup window to ask users for feedback about rkamyp2 2.0
 * Added setting for autoconnect comports, expanded default to support some boards on windows
 * Better feedback when incorrectly setting sync_folder
 

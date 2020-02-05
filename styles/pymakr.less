@@ -5,11 +5,11 @@
 @import 'ui-variables';
 
 @import '../node_modules/font-awesome/less/font-awesome.less';
-@fa-font-path: 'atom://rkamyp/node_modules/font-awesome/fonts';
+@fa-font-path: 'atom://rkamyp2/node_modules/font-awesome/fonts';
 @bg-dark: #21252b;
 @pycom-primary: #17ffbd;
-@rkamyp-light-bg: @app-background-color;
-@rkamyp-light-bg-2: #e7e9eb;
+@rkamyp2-light-bg: @app-background-color;
+@rkamyp2-light-bg-2: #e7e9eb;
 @font-face {
   font-family: 'Font Awesome';
   font-weight: normal;
@@ -26,7 +26,7 @@
   filter: blur(5px);
   overflow: hidden;
 }
-.rkamyp-status-bar {
+.rkamyp2-status-bar {
   display: inline-block;
   padding: 0 9px;
   &.light:hover {
@@ -34,7 +34,7 @@
   }
 }
 
-#rkamyp {
+#rkamyp2 {
   height: 314px;
   background: #000;
   &.container {
@@ -65,7 +65,7 @@
     .connection-status {
       border: 1px solid @text-color !important;
     }
-    .left-button#rkamyp-action-connect {
+    .left-button#rkamyp2-action-connect {
       color: #21252b !important;
       opacity: 1 !important;
       margin-bottom: 0px;
@@ -97,7 +97,7 @@
       }
     }
 
-    #rkamyp-terminal-area {
+    #rkamyp2-terminal-area {
       background-color: @input-background-color !important;
       color: #2c313a !important;
       border: 1px solid #c5cad3 !important;
@@ -124,7 +124,7 @@
       }
     }
 
-    #rkamyp-left-panel .left-button.disabled {
+    #rkamyp2-left-panel .left-button.disabled {
       opacity: 1 !important;
       color: #ccc !important;
       background-color: @background-color-highlight;
@@ -136,7 +136,7 @@
     }
   }
 
-  #rkamyp-resizer {
+  #rkamyp2-resizer {
     position: absolute;
     top: -5px;
     left: 0px;
@@ -144,7 +144,7 @@
     height: 10px;
     cursor: n-resize;
   }
-  #rkamyp-overlay {
+  #rkamyp2-overlay {
     display: none;
     position: absolute;
     top: 25px;
@@ -173,7 +173,7 @@
     color: inherit;
   }
 
-  #rkamyp-overlay-contents {
+  #rkamyp2-overlay-contents {
     display: none;
     position: absolute;
     top: 25px;
@@ -182,12 +182,12 @@
     bottom: 0px;
     z-index: 2;
     overflow: scroll;
-    &.rkamyp-open {
+    &.rkamyp2-open {
       display: block;
     }
 
-    #rkamyp-info-view {
-      #rkamyp-info-close {
+    #rkamyp2-info-view {
+      #rkamyp2-info-close {
         position: absolute;
         top: 16px;
         left: 12px;
@@ -217,7 +217,7 @@
         }
       }
       .column {
-        #rkamyp-info-top-buttons {
+        #rkamyp2-info-top-buttons {
           position: absolute;
           top: 10px;
         }
@@ -272,7 +272,7 @@
       }
     }
 
-    #rkamyp-overlay-wrapper {
+    #rkamyp2-overlay-wrapper {
       padding: 10px;
 
       #wrapper-close {
@@ -288,12 +288,12 @@
         }
       }
 
-      #rkamyp-overlay-nav {
+      #rkamyp2-overlay-nav {
         display: none;
         width: 150px;
         float: left;
       }
-      #rkamyp-overlay-content-wrapper {
+      #rkamyp2-overlay-content-wrapper {
         div.hidden {
           display: none;
         }
@@ -325,13 +325,13 @@
     }
   }
 
-  .rkamyp-open {
+  .rkamyp2-open {
     display: block;
   }
-  &.rkamyp-open {
+  &.rkamyp2-open {
     cursor: default;
 
-    .rkamyp-resizer {
+    .rkamyp2-resizer {
       display: block;
     }
   }
@@ -349,14 +349,14 @@
     border-left: solid 1px @tree-view-border-color;
     border-bottom: solid 1px @tree-view-border-color;
     background-color: @app-background-color;
-    #rkamyp-options-left {
+    #rkamyp2-options-left {
       display: flex;
       flex-direction: row;
       &:first-child {
         margin-left: -1px;
       }
     }
-    #rkamyp-title {
+    #rkamyp2-title {
       display: none;
       line-height: 25px;
       float: left;
@@ -364,7 +364,7 @@
         color: darken(@text-color, 20%);
       }
     }
-    .rkamyp-logo {
+    .rkamyp2-logo {
       height: 17px;
       padding-bottom: 2px;
     }
@@ -372,10 +372,10 @@
       padding-left: 5px;
       margin-bottom: 3px;
     }
-    #rkamyp-connection-tabs {
+    #rkamyp2-connection-tabs {
       display: inherit;
 
-      div.rkamyp-connection {
+      div.rkamyp2-connection {
         position: relative;
         border: none;
         padding: 4px 21px 4px 20px;
@@ -448,7 +448,7 @@
         }
       }
     }
-    #rkamyp-buttons {
+    #rkamyp2-buttons {
       position: absolute;
       top: 5px;
       position: absolute;
@@ -562,7 +562,7 @@
         margin-top: 6px;
         padding-top: 6px;
       }
-      div.rkamyp-add-address-button {
+      div.rkamyp2-add-address-button {
         cursor: pointer;
       }
       .side-menu:first-child {
@@ -589,13 +589,13 @@
       }
     }
   }
-  #rkamyp-terminal-area {
+  #rkamyp2-terminal-area {
     background: @input-background-color;
     padding-left: 5px;
     height: 100%;
     margin-left: 59px;
     margin-right: 26px;
-    #rkamyp-terminal-placeholder {
+    #rkamyp2-terminal-placeholder {
       height: 100%;
       display: none;
       color: @text-color-subtle;
@@ -603,7 +603,7 @@
       &.open {
         display: block;
       }
-      #rkamyp #rkamyp-terminal-area{
+      #rkamyp2 #rkamyp2-terminal-area{
         background-color: transparent !important;
       }
     }
@@ -614,7 +614,7 @@
       }
     }
   }
-  #rkamyp-right-panel {
+  #rkamyp2-right-panel {
     position: absolute;
     right: 0px;
     top: 26px;
@@ -666,7 +666,7 @@
 
   /* Show the tooltip text when you mouse over the tooltip container */
 
-  #rkamyp-left-panel {
+  #rkamyp2-left-panel {
     position: absolute;
     left: 0px;
     top: 26px;
@@ -710,7 +710,7 @@
         }
       }
 
-      &#rkamyp-action-connect {
+      &#rkamyp2-action-connect {
         transform: rotateY(0deg);
         margin-bottom: 0px;
         border: 1px solid @base-border-color;
@@ -756,7 +756,7 @@
         cursor: not-allowed;
         transform: rotateY(180deg) !important;
         .left-button {
-          &#rkamyp-action-connect {
+          &#rkamyp2-action-connect {
             .circle:before {
               opacity: 0;
             }
@@ -812,7 +812,7 @@
   #red {
     color: red;
   }
-  #rkamyp-address-list.disabled {
+  #rkamyp2-address-list.disabled {
     div {
       color: gray;
       &:hover {
@@ -823,7 +823,7 @@
   }
 }
 
-div.rkamyp-feedback {
+div.rkamyp2-feedback {
   position: absolute;
   right: 11px;
   top: -165px;
@@ -996,7 +996,7 @@ div.rkamyp-feedback {
   overflow-y: scroll;
 }
 
-#rkamyp-terminal-area {
+#rkamyp2-terminal-area {
   .xterm-rows {
     padding-left: 6px !important;
   }
