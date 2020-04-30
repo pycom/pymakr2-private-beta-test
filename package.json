@@ -20,7 +20,7 @@
     "electron-rebuild": "^1.8.5",
     "element-resize-detector": "^1.1.14",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "lie": "^3.1.0",
     "nan": "^2.9.2",
     "ncp": "^2.0.0",
